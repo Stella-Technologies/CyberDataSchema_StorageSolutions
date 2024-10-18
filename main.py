@@ -1,6 +1,6 @@
 import sys
 import json
-from generators import generate_sql_mysql, generate_sql_postgres, generate_sql_sqlite
+from generators import generate_mongodb, generate_sql_mysql, generate_sql_postgres, generate_sql_sqlite, generate_xlsx, generate_django_models, generate_csvs, generate_json_clean, generate_json_sample, generate_xml
 from config import HELP_TEXT
 
 def main():
@@ -35,7 +35,13 @@ def run_generator(option, schema):
         1: ("MySQL", generate_sql_mysql.generate),
         2: ("PostgreSQL", generate_sql_postgres.generate),
         3: ("SQLite", generate_sql_sqlite.generate),
-        5: ("JSON", None)
+        4: ("Excel", generate_xlsx.generate),
+        5: ("CSV", generate_csvs.generate),
+        6: ("JSON", generate_json_clean.generate),
+        7: ("JSON", generate_json_sample.generate),
+        8: ("Django", generate_django_models.generate),
+        9: ("XML", generate_xml.generate),
+        10: ("MongoDB", generate_mongodb.generate)
     }
 
     if option in generators:

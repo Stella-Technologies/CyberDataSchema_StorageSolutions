@@ -16,6 +16,7 @@ The repository is organized into subdirectories, each dedicated to a specific st
 - **File-based Scripts** - Includes scripts for generating structured files like JSON, CSV, or XML.
 - **ORMs** - Contains scripts for Object-Relational Mapping setups, particularly for frameworks like Django.
 
+
 ## How to Use
 
 To use the scripts in this repository, clone it to your local machine or download the specific scripts directly from the GitHub interface.
@@ -50,3 +51,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Contact
 
 For any further queries or discussions, please contact us via the issues section on GitHub, or send us an email at support@stellatechnologies.com.
+
+## Usage
+
+To run the script, use the following command:
+
+```bash
+python main.py <schema_file_path> [option]
+```
+
