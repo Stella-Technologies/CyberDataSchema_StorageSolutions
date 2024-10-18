@@ -49,4 +49,4 @@ This project is licensed under the Apache 2 License - see the [LICENSE.md](LICEN
 
 ## Contact
 
-For any further queries or discussions, please contact us via the issues section on GitHub, or send us an email at support@stellatechnologies.com.
+For any further queries or discussions, please contact us via the issues section on GitHub, or send us an email at support@stellatechnologies.space.
